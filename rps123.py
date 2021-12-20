@@ -5,7 +5,7 @@ while True:
     user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
     possible_actions = ["rock", "paper", "scissors"]
     computer_action = random.choice(possible_actions)
-    st.write('Player choice is',user_action)
+    st.write('Player choice is', user_action)
 
     if user_action == computer_action:
         st.write(f"Both players selected {user_action}. It's a tie!")
