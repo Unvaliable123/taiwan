@@ -2,7 +2,7 @@ import streamlit as st
 import random
 
 while True:
-    user_action = st.text_input("Enter a choice", (rock, paper, scissors): )
+    user_action = st.text_input("Enter a choice, (rock, paper, scissors):" )
     possible_actions = ["rock", "paper", "scissors"]
     computer_action = random.choice(possible_actions)
     st.write(f"\nYou chose {user_action}.\n")
