@@ -23,4 +23,4 @@ while True:
         if computer_action == "paper":
             st.write("Scissors cuts paper! You win!")
         else:
-            st.write("Rock smashes scissors! You lose."
+            st.write("Rock smashes scissors! You lose.")
