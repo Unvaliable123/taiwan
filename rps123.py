@@ -4,7 +4,6 @@ import random
 title = st.text_input('Enter a choice, (rock, paper, scissors):', '')
 st.write('The choice is', title)
 
-'''
 while True:
     user_action = st.text_input("Enter a choice, (rock, paper, scissors):" )
     possible_actions = ["rock", "paper", "scissors"]
@@ -27,4 +26,3 @@ while True:
             st.write("Scissors cuts paper! You win!")
         else:
             st.write("Rock smashes scissors! You lose.")
-'''
