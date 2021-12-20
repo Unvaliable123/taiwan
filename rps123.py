@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-title = st.text_input('Enter a choice, (rock, paper, scissors):', 'rock')
+title = st.text_input('Enter a choice, (rock, paper, scissors):', '')
 st.write('The choice is', title)
 
 '''
