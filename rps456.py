@@ -34,12 +34,8 @@ while True:
                 
         play_again = st.text_input('Play again? (y/n): ','')
         
-        confirm_input = st.button('輸入確認')
-        if confirm_input:
-                
-              
-              
-              
+        confirm_input2 = st.button('輸入確認')
+        if confirm_inpu2:
             if play_again.lower() != "y":
                 break    
                        
