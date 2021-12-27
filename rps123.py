@@ -3,6 +3,7 @@ import random
 
 while True:
     user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
+    
     confirm_input = st.button('輸入確認')
 if confirm_input:
     
