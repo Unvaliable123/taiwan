@@ -8,9 +8,9 @@ confirm_input = st.button('輸入確認')
     
     
     
-    possible_actions = ["rock", "paper", "scissors"]
-    computer_action = random.choice(possible_actions)
-    st.write('Player choice is', user_action)  
+        possible_actions = ["rock", "paper", "scissors"]
+        computer_action = random.choice(possible_actions)
+        st.write('Player choice is', user_action)  
    
     if user_action == computer_action:
         st.write(f"Both players selected {user_action}. It's a tie!")
