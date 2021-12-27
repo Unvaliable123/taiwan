@@ -3,6 +3,7 @@ import random
 
 while True:
     user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
+    user_action = float(h)
     possible_actions = ["rock", "paper", "scissors"]
     computer_action = random.choice(possible_actions)
     st.write('Player choice is', user_action)
