@@ -35,9 +35,7 @@ while True:
     if play_again.lower() != "y":
         break
         
-        confirm_input = st.button('輸入確認')
-    if confirm_input:
-    
+        
     
     
     
