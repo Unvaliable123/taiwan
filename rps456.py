@@ -40,8 +40,8 @@ while True:
               
               
               
-            if play_again.lower() != "y":
-                break    
+                if play_again.lower() != "y":
+                    break    
                        
                 
                 
