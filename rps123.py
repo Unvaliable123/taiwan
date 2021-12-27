@@ -32,7 +32,7 @@ while True:
             else:
                 st.write("Rock smashes scissors! You lose.")
                 
-        play_again = st.text_input('Play again? (y/n): ','')
-        if play_again.lower() != "y":
+        play_again = st.text_input('Play again? (y/n):', '')
+        if play_again.lower() == "y":
             break
           
