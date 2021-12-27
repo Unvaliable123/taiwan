@@ -32,7 +32,7 @@ while True:
             else:
                 st.write("Rock smashes scissors! You lose.")
                 
-        play_again = st.text_input('Play again? (y/n): ','')
+        play_again = st.text_input('Play again? (y/n): ','y')
         
         confirm_input2 = st.button('輸入確認')
         if confirm_inpu2:
