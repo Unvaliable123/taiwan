@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-play_again = st.text_input('Play again? (y/n): ','y')
+#play_again = st.text_input('Play again? (y/n): ','y')
 user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
 
 #while True:
