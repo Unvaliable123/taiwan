@@ -17,17 +17,17 @@ if confirm_input:
         st.write(f"Both players selected {user_action}. It's a tie!")
     elif user_action == "rock":
         if computer_action == "scissors":
-            st.write("Rock smashes scissors! You win!")
+            st.write("Computer choice scissor,Rock smashes scissors! You win!")
         else:
-            st.write("Paper covers rock! You lose.")
+            st.write("Computer choice scissor,Paper covers rock! You lose.")
     elif user_action == "paper":
         if computer_action == "rock":
-            st.write("Paper covers rock! You win!")
+            st.write("Computer choice rock,Paper covers rock! You win!")
         else:
-            st.write("Scissors cuts paper! You lose.")
+            st.write("Computer choice rock,Scissors cuts paper! You lose.")
     elif user_action == "scissors":
         if computer_action == "paper":
-            st.write("Scissors cuts paper! You win!")
+            st.write("Computer choice paper,Scissors cuts paper! You win!")
         else:
-            st.write("Rock smashes scissors! You lose.")
+            st.write("Computer choice paper,Rock smashes scissors! You lose.")
                 
