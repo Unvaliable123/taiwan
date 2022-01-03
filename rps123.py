@@ -20,15 +20,20 @@ if confirm_input:
             st.write("Computer choice scissor,rock smashes scissors! You win!")
             st.title('🗿>✂')
         else:
-            st.write("Computer choice scissor,paper covers rock! You lose.")
+            st.write("Computer choice paper,paper covers rock! You lose.")
+            st.title('🗿<📄')
     elif user_action == "paper":
         if computer_action == "rock":
             st.write("Computer choice rock,paper covers rock! You win!")
+            st.title('📄>🗿')
         else:
-            st.write("Computer choice rock,scissors cuts paper! You lose.")
+            st.write("Computer choice scissors,scissors cuts paper! You lose.")
+            st.title('📄<✂')
     elif user_action == "scissors":
         if computer_action == "paper":
             st.write("Computer choice paper,scissors cuts paper! You win!")
+            st.title('✂>📄')
         else:
-            st.write("Computer choice paper,rock smashes scissors! You lose.")
+            st.write("Computer choice rock,rock smashes scissors! You lose.")
+            st.title('✂<🗿')
                 
