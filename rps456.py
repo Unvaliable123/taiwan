@@ -32,7 +32,7 @@ if confirm_input:
                 
         #play_again = st.text_input('Play again? (y/n): ','y')
         
-    confirm_input2 = st.button('輸入確認')
-    if confirm_inpu2:
-        if play_again.lower() != "y":
-            break                                 
+    #confirm_input2 = st.button('輸入確認')
+    #if confirm_inpu2:
+    #    if play_again.lower() != "y":
+    #        break                                 
