@@ -1,9 +1,5 @@
 import streamlit as st
 import random
-from PIL import Image
-image = Image.open('sunrise.jpg')
-
-st.image(image, caption='Sunrise by the mountains')
 
 user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
 
@@ -22,6 +18,7 @@ if confirm_input:
     elif user_action == "rock":
         if computer_action == "scissors":
             st.write("Computer choice scissor,rock smashes scissors! You win!")
+            st.title('🗿>✂')
         else:
             st.write("Computer choice scissor,paper covers rock! You lose.")
     elif user_action == "paper":
