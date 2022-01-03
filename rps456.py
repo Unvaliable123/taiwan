@@ -1,8 +1,11 @@
 import streamlit as st
 import random
 
+play_again = st.text_input('Play again? (y/n): ','y')
+user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
+
 while True:
-    user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
+    #user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
 
     confirm_input = st.button('輸入確認')
     if confirm_input:
@@ -32,7 +35,7 @@ while True:
             else:
                 st.write("Rock smashes scissors! You lose.")
                 
-        play_again = st.text_input('Play again? (y/n): ','y')
+        #play_again = st.text_input('Play again? (y/n): ','y')
         
         confirm_input2 = st.button('輸入確認')
         if confirm_inpu2:
