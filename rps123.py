@@ -1,5 +1,9 @@
 import streamlit as st
 import random
+from PIL import Image
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
 
 user_action = st.text_input('Enter a choice, (rock, paper, scissors):', '')
 
