@@ -15,7 +15,7 @@ if confirm_input:
    
     if user_action == computer_action:
         st.write(f"Both players selected {user_action}. It's a tie!")
-        st.title('IT'S A 👔')
+        st.title('ITS A 👔')
     elif user_action == "rock":
         if computer_action == "scissors":
             st.write("Computer choice scissor,rock smashes scissors! You win!")
